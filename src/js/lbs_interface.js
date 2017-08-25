@@ -7,4 +7,4 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     accessToken: 'pk.eyJ1IjoibndlYnoiLCJhIjoiY2lsc3NvMWI4MDA2MHUwa3NhZ2xvejJqdiJ9.3aR1Ye5KYmMMGgrUeBvYkw'
 }).addTo(mymap);
 
-// L.control.locate().addTo(mymap);
+L.control.locate().addTo(mymap);
